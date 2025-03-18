@@ -1,0 +1,24 @@
+{
+  "name": "devhouse-tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanRomanini20/DevHouse-Course-TailwindCss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuanRomanini20/DevHouse-Course-TailwindCss/issues"
+  },
+  "homepage": "https://github.com/LuanRomanini20/DevHouse-Course-TailwindCss#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.14",
+    "tailwindcss": "^4.0.14"
+  }
+}
